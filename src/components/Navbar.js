@@ -33,7 +33,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row">
-          <h1 className="logo">
+          <h6 className="logo">
             <Link
               spy={true}
               smooth={true}
@@ -41,9 +41,9 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              DarkLeas
+              Tech Company
             </Link>
-          </h1>
+          </h6>
           <ul className="bar">
             <li>
               <Link
